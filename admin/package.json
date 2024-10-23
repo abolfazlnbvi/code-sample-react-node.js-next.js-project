@@ -1,0 +1,73 @@
+{
+  "name": "fronend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckbox/components": "^2.2.0",
+    "@ckbox/core": "^2.2.0",
+    "@ckeditor/ckeditor5-build-classic": "^40.1.0",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.11",
+    "@mui/x-data-grid": "^6.18.1",
+    "@mui/x-data-grid-generator": "^6.19.6",
+    "@mui/x-data-grid-premium": "^6.19.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.3.2",
+    "axios": "^1.5.1",
+    "cross-storage": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "formik": "^2.4.5",
+    "fs-extra": "^11.1.1",
+    "html-react-parser": "^5.1.10",
+    "jalaali-react-date-picker": "^1.0.18",
+    "jalali-moment": "^3.3.11",
+    "jodit-react": "^4.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "react": "^18.2.0",
+    "react-cookie": "^6.1.1",
+    "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
+    "react-helmet-async": "^1.3.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "5.0.1",
+    "react-time-picker": "^7.0.0",
+    "react-toastify": "^9.1.3",
+    "stylis-plugin-rtl": "^2.1.1",
+    "swiper": "^11.0.7",
+    "tinymce": "^6.7.3",
+    "toastify-js": "^1.12.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
