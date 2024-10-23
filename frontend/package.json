@@ -1,0 +1,40 @@
+{
+  "name": "amoozkar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 5223",
+    "build": "next build",
+    "start": "node app.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.13.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/lab": "^5.0.0-alpha.173",
+    "@mui/material": "^5.16.4",
+    "@mui/material-nextjs": "^5.16.4",
+    "@mui/x-data-grid": "^7.11.1",
+    "axios": "^1.7.2",
+    "cross-storage": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "formik": "^2.4.6",
+    "html-react-parser": "^5.1.12",
+    "jalali-moment": "^3.3.11",
+    "jwt-decode": "^4.0.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-cookie": "^7.2.0",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5",
+    "swiper": "^11.1.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

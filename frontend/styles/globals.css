@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANSansWeb;
+  src: url('./fonts/IRANSansWeb.woff2') format('woff2'),
+}
+
+
+* {
+  font-family: IRANSansWeb !important;
+
+}
+
+img {
+  width: 95%;
+}
+body {
+  background-color: #ffffffe6;
+}
+
+
